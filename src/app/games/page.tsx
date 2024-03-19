@@ -20,6 +20,7 @@ const Games = async () => {
               <Image
                 className="h-10 w-10 rounded-full"
                 src={`https://d2norla3tyc4cn.cloudfront.net/i/s3/${game.identifier}.webp`}
+                unoptimized
                 alt={game.title}
                 width={40}
                 height={40}

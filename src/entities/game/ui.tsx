@@ -56,6 +56,7 @@ export const Game: FC<Props> = ({
             <Image
               src={imageUrl}
               alt={title}
+              unoptimized
               className="h-full w-full object-cover object-center"
               width={300}
               height={300}
